@@ -1,0 +1,219 @@
+body{
+	background-color:#red;
+	font-family: Verdana;
+	color:#666666;
+	background-image:url(images/ufo.jpg);
+	}
+	header{
+		background-color: #000033;
+		color: #FFFFFF;
+		font-family: Georgia,serif;
+	}
+	span{
+		font-size: 1.2em
+		color: #000033;
+	}
+h1{line-height:100%;
+	background-image: url(images/grey.jpg);
+	background-repeat: no-repeat;background-position: right; 
+	padding-left: 20px; 
+	height: 72px;
+	margin:0;
+}
+nav{
+	float:left;
+	width:160px;
+	padding: 20px 5px 0 20px; 
+}
+h2{
+	font-family:Georgia, serif;
+	color:#3399CC;
+}
+span{
+	font-size:1.2em;
+	color:#000033;
+}
+#wrapper{
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	min-width: 700px;
+	max-width: 1024px;
+	background-color:#90C7E3;
+}
+
+
+footer{
+	padding: 5px;
+	margin-left:170px;
+	background-color: white;
+}
+main{
+	padding-left:20px;
+	 padding-right:20px;
+	 margin-left:170px;
+	 padding-top:10px;
+	 padding-bottom:20px;
+	 background-color: white;
+	}
+
+	#homehero{
+		background-image :url(images/grey.jpg);
+		height:300px;
+		background-size:100%;
+		margin-left:170px;
+
+	}
+#sightingshero{
+	background-image: url(images/grey.jpg);
+	height:300px;
+	background-size:100%;
+	margin-left:170px;
+}
+#historyhero{
+	background-image: url(images/rosewell.jpg);
+	height:300px;
+	background-size:100%;
+	margin-left:170px;
+}
+h3{
+	color: #red;
+	padding-left: 500px;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+}
+nav a{
+	text-decoration: none;
+
+}
+nav li{
+	display: inline;
+}
+nav a:link{
+	color: #red;
+}
+nav a:visited{
+	color:#344873;
+}
+nav a:hover{
+	color:#ffffff;
+}
+nav a:active{
+	color:#000000;
+}
+#mobile{
+	display:none;
+}
+@media only screen and (max-width: 1024px) {
+	body{
+		margin:0;
+		padding: 0;
+		background-image:none;
+	}
+	h1{
+		margin: 0;
+	}
+	nav{
+		float: none;
+		width: auto;
+		padding: 0.5em;
+	}	
+	nav li{
+		display:inline-block;
+	}
+	nav a{
+		padding:1em;
+	}
+		#wrapper{
+			max-width: 1024px;
+			width: auto;
+			min-width: 0;
+			box-shadow: none;
+		}
+		main{
+			margin-left: 0;
+			padding: 1em;
+			font-size: 90%;
+		}
+		footer{
+			margin: 0;
+		}
+		#homehero,
+		#sightingshero,
+		#historyhero,
+		#theorieshero,{
+			margin-left:0;
+
+		}
+	}
+	
+@media only screen and (max-width: 768px){
+
+
+	nav li{
+		display: block;
+		padding: 0;
+		margin: 0;
+	}
+	nav a{
+		display: block;
+		border-bottom: 1px #330000 solid;
+		padding: 0.2em;
+		font-size: 1.3em;
+	}
+	nav ul{
+		padding: 0;
+		margin: 0;
+	}
+	h1{
+		font-size: 1.5em;
+		padding-left: 0.3;
+		height: 100%;
+	}
+	main{
+		padding-top: 0.1em;
+		padding-right: 0.6em;
+		padding-bottom: 0.1em;
+		padding-left: 0.4em;
+	}
+	footer{
+		padding: 0;
+	}
+	#desktop{
+		display: none;
+	}
+	#mobile{
+		display: inline;
+	}
+
+}
+td{
+	padding: 5px;
+	border: 1px;
+	border-color: #3399cc;
+	border-style: solid;
+	text-align: center;
+}
+th{
+	padding: 5px;
+	border: 1px;
+	border-color: #3399cc;
+	border-style: solid;
+	text-align: center;
+}
+table{
+	border-style: solid;
+	border-color: #3399cc;
+	border-width: 90%;
+	border-collapse: collapse;
+}
+.leftfloat{
+	float:left;
+	margin:1em;
+}
+.clear{
+	clear:both;
+}
